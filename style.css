@@ -1,0 +1,270 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+body, ul, li, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur latar belakang, warna teks, dan jenis huruf dasar */
+body {
+    background-color: #2E4374;
+    color: #E5C3A6;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk elemen header */
+.hero {
+    background-image: url('img/hero-bg.'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.detail{
+    margin-left: -50%;
+    margin-top: 15%;
+}
+.detail h1{
+    font-size: 50px;
+    color: #7C81AD;
+    margin-bottom: 20px;
+}
+span{
+    color: #E5C3A6;
+}
+.detail p{
+    
+    color: #7C81AD;
+    line-height: 22px;
+}
+/* Gaya untuk logo */
+.logo {
+    width: 100px; /* Sesuaikan lebar logo sesuai kebutuhan */
+}
+
+/* Gaya untuk navigasi */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h2{
+    margin-left: -65%;
+}
+nav h2:hover{
+    
+    color: #E5C3A6;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7C81AD;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #E5C3A6; /* Warna yang berbeda ketika dihover */
+}
+.imgs{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.imgs img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.imgs:hover .bentuk{
+    bottom: 40px;
+}
+
+.imgs:hover .cwk{
+    left: 45%;
+}
+
+/* Gaya untuk konten */
+.content {
+    margin-top: 350px;
+    max-width: 2000px;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+/* Gaya untuk class container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container li {
+    margin-bottom: 5px;
+}
+
+.about{
+    margin-left: 340px;
+    margin-right: 20px;
+    margin-bottom: 20%;
+}
+.about h2{
+    font-size: 50px;
+    color: #E5C3A6;
+    margin-top: 20px;
+}
+
+.about p{
+    text-align: justify;
+    text-justify: inter-word;
+    color: #7C81AD;
+    line-height: 25px;
+}
+.ima{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.ima img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    top: 120%;
+}
+.ima .a1{
+    height: 515px ;
+}
+.ima:hover .a2{
+    bottom: 40%;
+}
+
+.ima:hover .a1{
+    left: 45%;
+}
+/* CSS sebelumnya di sini */
+.skill{
+    margin-left: 150px;
+    margin-bottom: 20%;
+}
+.skill h2{
+    font-size: 50px;
+    color: #E5C3A6;   
+}
+
+/* Gaya untuk item kartu */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #4B527E;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card h3:hover{ 
+    color: #E5C3A6;
+}
+.contact{
+    margin-left: 150px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.contact h2 {
+    font-size: 50px;
+    color: #E5C3A6;   
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #2E4374;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px;
+    border-color: #fff;
+    margin-bottom: 10px;
+    background-color: #2E4374;
+    border: 1px solid #2E4374;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4B527E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #7C81AD;
+}
+/* Gaya tambahan sesuai kebutuhan Anda */
+.cp-text{
+    color: rgba(0,0,0,.7);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
